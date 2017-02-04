@@ -5,10 +5,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch,Array.prototype.includes"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/global.css" />
 </head>
 <body>
-    <nav>
+    <div class="row">
+        <div class="red-line">..</div>
+    </div>
+    
+    <nav class="fixed-nav-bar">
         <div class="nav-company">
             DESIGNCO
             <a href="?">Home</a>
@@ -17,6 +23,46 @@
             <a href="?">Contact</a>
         </div>
     </nav>
+
+    <header>
+        <div class="heading">
+            The Details Matter.
+            </div>
+        <div class="header-text">
+            We're making beautiful website layouts<br/> using modern methods.
+        </div>
+    </header>
+    <div class="container">
+        <section id="photos">
+            <img src="https://unsplash.it/800?image=1078" alt="computer keyboard"/>
+            <img src="https://unsplash.it/400/?image=1042" alt="package tied with string"/>
+            <img src="https://unsplash.it/600/?image=1031" alt="typewriter"/>
+            <img src="https://unsplash.it/200/?image=998" alt="stripes"/>
+            <img src="https://unsplash.it/500/?image=983" alt="staircases"/>
+        </section>
+
+        <div class="row">
+            <div class="column column-4">
+                <div class="column-header">
+                    What's New
+                </div>
+                We always have new projects that clients hire us for.<br/>
+                <a href="?">View Recent Projects</a>
+            </div>
+            <div class="column column-4">
+                <div class="column-header2">Modern layouts
+                </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ut, dicta! Eveniet quod ullam, ab sapiente totam, veniam aliquid velit quas recusandae voluptatibus hic sunt tempore aut amet, aperiam voluptates.
+            </div>
+            <div class="column column-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ut, dicta! Eveniet quod ullam, ab sapiente totam, veniam aliquid velit quas recusandae voluptatibus hic sunt tempore aut amet, aperiam voluptates.
+            </div>
+            <div class="column column-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ut, dicta! Eveniet quod ullam, ab sapiente totam, veniam aliquid velit quas recusandae voluptatibus hic sunt tempore aut amet, aperiam voluptates.
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="js/global.js"></script>
