@@ -5,3 +5,22 @@ img {
     width: 100%;
 }
 
+nav {
+    background-color:#f7f7f7;
+    background-size: cover;
+    background-position: 0% 50%;
+}
+
+.nav-company {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
