@@ -23,7 +23,7 @@ body {
     max-width: 1000px;
     background-color: red;
     background-size: 20px 150px;
-    display: block;
+    
     margin: 0 auto;
     font-size: 6px;
     color: red;
@@ -72,30 +72,26 @@ header .heading{
     padding-bottom: 40px;
 }
 
-#photos {
-  /* Prevent vertical gaps */
-  line-height: 0;
-   
-  -webkit-column-count: 4;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    4;
-  -moz-column-gap:      0px;
-  column-count:         4;
-  column-gap:           0px; 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+#photos {
+    -moz-column-count: 6;
+	-moz-column-gap: 0;
+	-webkit-column-count: 6;
+	-webkit-column-gap: 0;
+	column-count: 6;
+	column-gap: 0;
+	width: 1500px;
+    
 }
 
 #photos img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-  
-}
-
-.container {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+	margin-bottom: 0px;
+	width: 100%;
 }
 
 .column-header {
